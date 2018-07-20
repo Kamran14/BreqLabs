@@ -27,12 +27,13 @@ image: ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/m
 
 8) Now if you want to use the Buttons on the controller, lets head over to your main C# script.
 
-9) Add the following functions in your script,
-`private void Reader_OnButtonClicked(){
-}`
+9) Add the following functions in your script:
 
-`private void Reader_OnButtonReleased(){
-}`
+    `private void Reader_OnButtonClicked(){
+  }`
+
+    `private void Reader_OnButtonReleased(){
+  }`
 
 
 10) In your Start() function, add the following:
