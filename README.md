@@ -9,7 +9,7 @@ tag called `GloveConnectionManager`. Make sure the Tag under
 2) Head over to your Project Tab and go into the Following Directory; 
 `BreqLabs-> Scripts`.
 
-3) Once there, you will need to click and drag the 
+3) Once there, click and drag the 
 `BreqLabsConnectionManager` script onto your GameObject created in step 1.
 
 4) Click on your `BreqLabsConnectionManager` GameObject and an Inspector 
@@ -36,7 +36,7 @@ image: ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/m
   }`
 
 
-10) In your Start() function, add the following:
+10) In your `Start()` function, add the following:
 `BreqLabsXR.BreqLabsReader.OnButtonClicked += Reader_OnButtonClicked;`
 `BreqLabsXR.BreqLabsReader.OnButtonReleased += Reader_OnButtonReleased;`
 
