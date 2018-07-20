@@ -22,4 +22,21 @@ image: ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/
 
 6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`; ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/2.png)
 
-*OPTIONAL* If you want to use the BreqLabsConnectionManager in other scenes,  do this step. Click on the parent of your character GameObject and drag it into the Prefabs folder located under the BreqLabs folder in the Project Tab. Now click the BreqLabsConnectionManager GameObject and add drag that under the Prefabs folder as well. That will handle the movement part of the controller.
+** *OPTIONAL* ** If you want to use the `BreqLabsConnectionManager` in other scenes, do this step. Click on the parent of your character GameObject and drag it into the Prefabs folder located under the BreqLabs folder in the Project Tab. Now click the `BreqLabsConnectionManager` GameObject and add drag that under the Prefabs folder as well. That will handle the movement part of the controller.
+
+8) Now if you want to use the Buttons on the controller, lets head over to your main C# script.
+
+9) Add the following functions in your script,
+`private void Reader_OnButtonClicked(){
+}
+`
+`private void Reader_OnButtonReleased(){
+}`
+
+
+10) In your Start() function, add the following:
+`BreqLabsXR.BreqLabsReader.OnButtonClicked += Reader_OnButtonClicked;`
+`BreqLabsXR.BreqLabsReader.OnButtonReleased += Reader_OnButtonReleased;`
+
+11) In your `Reader_OnButtonClicked()` function, add whatever you would like to happen when the button is clicked. In your `Reader_OnButtonReleased()` function, please add whatever you would like to happen when the button is released.
+
