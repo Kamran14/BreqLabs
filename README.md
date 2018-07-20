@@ -29,11 +29,9 @@ image: ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/m
 
 9) Add the following functions in your script,
 `private void Reader_OnButtonClicked(){
-
 }`
 
 `private void Reader_OnButtonReleased(){
-
 }`
 
 
