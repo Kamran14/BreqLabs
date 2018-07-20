@@ -20,6 +20,6 @@ image: ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/
 
 5) Find the parent that holds your right and left GameObjects that will be moved by the controllers and attach the `BreqLabs Reader` Script onto it.
 
-6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`; ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/2.png
+6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`; ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/2.png)
 
 *OPTIONAL* If you want to use the BreqLabsConnectionManager in other scenes,  do this step. Click on the parent of your character GameObject and drag it into the Prefabs folder located under the BreqLabs folder in the Project Tab. Now click the BreqLabsConnectionManager GameObject and add drag that under the Prefabs folder as well. That will handle the movement part of the controller.
