@@ -4,14 +4,13 @@
 1) In your scene, make an empty GameObject Called 
 `BreqLabsConnectionManager`. Click on the Tag option and create a new 
 tag called `GloveConnectionManager`. Make sure the Tag under 
-BreqLabsConnectionManager is set to `GloveConnectionManager`.
+`BreqLabsConnectionManager` is set to `GloveConnectionManager`.
 
 2) Head over to your Project Tab and go into the Following Directory; 
 `BreqLabs-> Scripts`.
 
 3) Once there, you will need to click and drag the 
-`BreqLabsConnectionManager` script onto your GameObject created in step 
-1.
+`BreqLabsConnectionManager` script onto your GameObject created in step 1.
 
 4) Click on your `BreqLabsConnectionManager` GameObject and an Inspector 
 tab should appear to the right of the screen. Under the `BreqLabs 
@@ -20,7 +19,7 @@ image: ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/m
 
 5) Find the parent that holds your right and left GameObjects that will be moved by the controllers and attach the `BreqLabs Reader` Script onto it.
 
-6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`; ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/master/img/2.png?token=ATd3m3bAwA6qqWP6eQMTAI17AIK-UoX6ks5bW2ehwA%3D%3D)
+6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`. ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/master/img/2.png?token=ATd3m3bAwA6qqWP6eQMTAI17AIK-UoX6ks5bW2ehwA%3D%3D)
 
 **Step 7 is Optional**
 
