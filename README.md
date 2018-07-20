@@ -25,7 +25,7 @@ image: ![Click to Enlarge](https://raw.githubusercontent.com/Kamran14/BreqLabs/m
 
 7) If you want to use the `BreqLabsConnectionManager` in other scenes, do this step. Click on the parent of your character GameObject and drag it into the Prefabs folder located under the BreqLabs folder in the Project Tab. Now click the `BreqLabsConnectionManager` GameObject and add drag that under the Prefabs folder as well. That will handle the movement part of the controller.
 
-8) Now if you want to use the Buttons on the controller, lets head over to your main C# script. If you don't have one, go to your project tab click 'Create -> Folder'. Then click on the folder and now click 'Create -> C# Script'.
+8) Now if you want to use the Buttons on the controller, lets head over to your main `C# script`. If you don't have one, go to your project tab click `Create -> Folder`. Then click on the folder and now click `Create -> C# Script`.
 
 9) Add the following functions in your script:
 
