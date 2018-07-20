@@ -22,7 +22,7 @@ image: ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/
 
 6) Stay in the GameObject that contains your `BreqLabs Reader` Script and drag your right controller objects into: `Or_PALM`, `Or_ARM`, `Or_FOREARM`, `Or_REF_SPINE` and `Parent Enable Right`. Do the same for the left one, but place the objects inside `Ol_PALM`, `OL_ARM`, `Ol_FOREARM` and `Parent Enable Left`; ![Click to Enlarge](https://github.com/Kamran14/BreqLabs/blob/master/img/2.png)
 
-** Step 7 is Optional**
+**Step 7 is Optional**
 7) If you want to use the `BreqLabsConnectionManager` in other scenes, do this step. Click on the parent of your character GameObject and drag it into the Prefabs folder located under the BreqLabs folder in the Project Tab. Now click the `BreqLabsConnectionManager` GameObject and add drag that under the Prefabs folder as well. That will handle the movement part of the controller.
 
 8) Now if you want to use the Buttons on the controller, lets head over to your main C# script.
